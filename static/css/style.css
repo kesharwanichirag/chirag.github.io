@@ -536,8 +536,9 @@ section {
 }
 
 .screenshots_imgs{
-  margin-top: 20px;
+  margin: 20px auto;
   width: 100%;
+  margin-left: 10px;
 }
 
 .view_live_btns{
