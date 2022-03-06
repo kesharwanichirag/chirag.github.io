@@ -352,9 +352,9 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about .content h3 {
+.about .content h4 {
   font-weight: 700;
-  font-size: 26px;
+  font-size: 22px;
   color: #173b6c;
 }
 
@@ -485,19 +485,18 @@ section {
 # projects
 --------------------------------------------------------------*/
 .projects .icon-box {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  text-align: left;
 }
 
 .projects_heads{
+  
   font-weight: bold;
   font-size: 22px;
 }
 
 .projects .icon {
-  float: left;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: inline-block;
   border-radius: 50%;
   transition: 0.5s;
  
@@ -523,17 +522,47 @@ section {
 }
 
 .projects .title {
-  margin-left: 80px;
   font-weight: 600;
-  margin-bottom: 10px;
   font-size: 18px;
   color: #3e8fcd;
 }
 
 .projects .description {
-  margin-left: 80px;
   line-height: 24px;
   font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+
+}
+
+.screenshots_imgs{
+  width: 100%;
+}
+
+.view_live_btns{
+  border: 1px solid #444;
+  background-color: #444;
+  color: #fff;
+  font-weight: 0;
+}
+
+.view_code_btns{
+  border: 1px solid #444;
+  background-color: #fff;
+  color: #444;
+  font-weight: 0;
+}
+
+.view_live_btns:hover{
+  border: 1px solid #111;
+  background-color: #111;
+  color: #fff;  
+}
+
+.view_code_btns:hover{
+  border: 1px solid #111;
+  background-color: #eee;
+  color: #444;  
 }
 
 /*--------------------------------------------------------------
